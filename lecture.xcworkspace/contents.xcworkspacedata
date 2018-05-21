@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:04-Parallel Map/04-Parallel Map.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:05-Readers Writers Block/05-Readers Writers Block.xcodeproj">
+   </FileRef>
+</Workspace>
