@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		E9C3FDCD20B37EB300118863 /* Parallel_Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C3FDCC20B37EB300118863 /* Parallel_Map.swift */; };
+		E9C3FDE320B385C500118863 /* Array+ParallelMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C3FDE220B385C500118863 /* Array+ParallelMap.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E9C3FDC920B37EB300118863 /* Parallel Map.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Parallel Map.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9C3FDCC20B37EB300118863 /* Parallel_Map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parallel_Map.swift; sourceTree = "<group>"; };
 		E9C3FDCE20B37EB300118863 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9C3FDE220B385C500118863 /* Array+ParallelMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+ParallelMap.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,9 +49,18 @@
 			isa = PBXGroup;
 			children = (
 				E9C3FDCC20B37EB300118863 /* Parallel_Map.swift */,
+				E9C3FDE120B385AC00118863 /* Resources */,
 				E9C3FDCE20B37EB300118863 /* Info.plist */,
 			);
 			path = "Parallel Map";
+			sourceTree = "<group>";
+		};
+		E9C3FDE120B385AC00118863 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E9C3FDE220B385C500118863 /* Array+ParallelMap.swift */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,6 +130,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9C3FDCD20B37EB300118863 /* Parallel_Map.swift in Sources */,
+				E9C3FDE320B385C500118863 /* Array+ParallelMap.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
